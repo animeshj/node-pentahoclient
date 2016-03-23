@@ -1,0 +1,23 @@
+{
+  "name": "pentahoclient",
+  "version": "1.0.0",
+  "description": "node app to parse and show pentaho status",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/animeshj/node-pentahoclient.git"
+  },
+  "keywords": [
+    "pentaho",
+    "node"
+  ],
+  "author": "animeshj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/animeshj/node-pentahoclient/issues"
+  },
+  "homepage": "https://github.com/animeshj/node-pentahoclient#readme"
+}
