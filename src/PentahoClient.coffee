@@ -61,7 +61,8 @@ class PentahoClient
 		request options, (error, response, body) ->
 		  #TODO: handle case where response is an HTML body and not XML
 		  if error
-		    throw new Error(error)
+		    callback error,null
+				return
 
 		  json = parser.xml2json( body )
 		  callback null, json
